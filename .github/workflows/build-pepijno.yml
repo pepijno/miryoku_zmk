@@ -9,5 +9,5 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      kconfig: '["CONFIG_CUSTOM_WIDGET_LOGO_IMAGE_MIRYOKU=y\nCONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=900000\nCONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y"]'
+      kconfig: '["CONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=900000\nCONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y"]'
       shield: '["pepijno_left nice_view_adapter nice_view","pepijno_right nice_view_adapter nice_view"]'
