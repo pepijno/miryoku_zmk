@@ -1,0 +1,7 @@
+# Copyright 2024 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+outboard_repository=pepijno/zmk-pepijno
+outboard_ref=master
+outboard_from=boards/shields/pepijno
+outboard_to=boards/shields/pepijno
